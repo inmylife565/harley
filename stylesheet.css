@@ -16,6 +16,8 @@ header {
   background-color: orange;
   opacity: 0.8;
   height:auto;
+  width: 1170px;
+  position: fixed;
 }
 .top {
   background-image: url(hd-header.jpg);
