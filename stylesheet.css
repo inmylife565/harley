@@ -18,6 +18,8 @@ header {
   height:auto;
   width: 1170px;
   position: fixed;
+  padding-left: 10px;
+  box-sizing: border-box;
 }
 .top {
   background-image: url(hd-top.jpg);
