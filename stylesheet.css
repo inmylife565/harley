@@ -51,6 +51,12 @@ h1 {
 .main-wrapper {
   padding: 0 15px;
   height: 380px;
+  position: relative;
+}
+.hdlogo {
+  position: absolute;
+  top: 10px;
+  left: 545px;
 }
 .side {
   background-image: url(bg067.gif);
@@ -65,7 +71,7 @@ footer {
   color: white;
 }
 h2 {
-  background: #696969;
+  background-color: rgba(69,69,69,0.6);
   color: #FFD700;
   padding-left: 15px;
   padding-top: 3px;
@@ -95,4 +101,3 @@ h4 {
   border-bottom: 2px solid #006400;
   padding-bottom: 5px;
 }
-
