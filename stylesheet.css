@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
-  background-image: url(hd-up.JPG);
+  background-image: url(hd-up.jpg);
 }
 
 a {
@@ -15,7 +15,7 @@ a {
 header {
   background-color: orange;
   opacity: 0.8;
-  height: auto;
+  height: 45px;
   width: 1170px;
   position: fixed;
   display: flex;
@@ -24,6 +24,8 @@ header {
 .title {
   padding-left: 10px;
   box-sizing: border-box;
+  float: left;
+  position:absolute;
 }
 .menu li{
 float: left;
@@ -32,11 +34,25 @@ list-style:none;
 font-size: 18px;
 font-weight: bold;
 }
+.menu {
+  padding-left: 200px;
+  line-height: 25px;
+}
+.header-right {
+  float: right;
+  margin-left: 390px;
+  line-height: 45px;
+}
 .top-wrapper {
   color: white;
   background-size: 100%;
   padding: 170px 20px;
 }
+#login {
+  font-weight: bold;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
 .bg-switcher {
   width: 100%;
   height: flex;
@@ -45,9 +61,20 @@ font-weight: bold;
 }
 h1 {
   font-size: 55px;
+  text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 .container {
   display: flex;
+}
+.appendBox {
+  color: white;
+  text-align-last: right;
+  padding-right:20px;
+  padding-bottom: 10px;
+}
+p {
+padding: 5px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 .main {
   background-image: url(bg001.gif);
@@ -87,7 +114,7 @@ h2 {
   height: 100px;
   float:right;
 }
-.side-wrapper {
+.side-wrapper ul {
   margin-top: 5px;
   padding: 0 20px;
   font-size: 18px;
@@ -99,7 +126,7 @@ h2 {
   overflow-y: scroll;
   box-sizing: border-box;
 }
-.none {
+#none {
   list-style: none;
 }
 h4 {
@@ -107,3 +134,32 @@ h4 {
   border-bottom: 2px solid #006400;
   padding-bottom: 5px;
 }
+
+#form {
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+label {
+  color: #FFD700;
+  display: block;
+}
+
+#submit {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(206, 86, 17);
+  color: #fff;
+}
+textarea {
+  font-size: 22px;
+}
+.tuikaform {
+  background-color: rgba(158, 61, 61, 0.8);
+  color: #FFD700;
+  padding-left: 15px;
+  padding-top: 3px;
+  font-size: 30px;
+  text-shadow: 3px 3px #000;
+}
+
