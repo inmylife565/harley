@@ -1,3 +1,7 @@
+'use strict';
+
+onload=init;
+function init(){
 $(function(){
     $('.bg-switcher').bgSwitcher({
         images: ['hd-top0.jpg', 'hd-top1.jpg', 'hd-top2.jpg'],
@@ -9,3 +13,4 @@ $(function(){
         easing: "swing",
     })
 });
+};
