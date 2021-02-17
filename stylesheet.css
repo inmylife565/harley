@@ -442,22 +442,22 @@ textarea {
   }
   
     #form {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #submit {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   textarea {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .tuikaform {
-    padding-left: 20px;
-    padding-top: 5px;
-    font-size: 40px;
-    text-shadow: 5px 5px #000;
+    padding-left: 15px;
+    padding-top: 3px;
+    font-size: 30px;
+    text-shadow: 3px 3px #000;
   }
 
 }
