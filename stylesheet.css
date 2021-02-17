@@ -379,6 +379,7 @@ h4 {
     display: block;
     margin: 0 auto;
     text-align: center;
+    position: absolute;
   }
   
   #main_img .image-vw {
