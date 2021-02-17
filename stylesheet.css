@@ -370,7 +370,6 @@ h4 {
 
   .main-wrapper {
     padding-left: 15px;
-    padding-right: 15px;
   }
 
   #main_img {
@@ -378,7 +377,7 @@ h4 {
     display: block;
     margin: 0 auto;
     text-align: center;
-    width: 100vw; 
+    width: 90vw; 
   }
 
   .main-wrapper li {
