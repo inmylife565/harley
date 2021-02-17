@@ -371,7 +371,6 @@ h4 {
 
   .main-wrapper {
     padding-left: 15px;
-    padding-right: 15px;
   }
 
   #main_img {
@@ -381,8 +380,8 @@ h4 {
     text-align: center;
   }
   
-  #main_img .image-vw {
-    width: 80vw;
+  .main-wrapper .image-vw {
+    width: 90vw;
   }
 
   .main-wrapper li {
