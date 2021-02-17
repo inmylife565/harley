@@ -385,6 +385,7 @@ h4 {
     text-align: end;
     position: absolute;
     left: 60%;
+    margin-top: -15px;
   }
 
   .clear {
