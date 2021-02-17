@@ -75,6 +75,10 @@ a {
   display: none;
 }
 
+.image-vw {
+  width: 100vw;
+}
+
 .intro {
   width: 67%;
   padding: 5px;
