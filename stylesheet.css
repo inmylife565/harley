@@ -183,6 +183,36 @@ h4 {
   line-height: 25px;
 }
 
+#form {
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+label {
+  color: #FFD700;
+  display: block;
+}
+
+#submit {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(206, 86, 17);
+  color: #fff;
+}
+
+textarea {
+  font-size: 22px;
+}
+
+.tuikaform {
+  background-color: rgba(158, 61, 61, 0.8);
+  color: #FFD700;
+  padding-left: 15px;
+  padding-top: 3px;
+  font-size: 30px;
+  text-shadow: 3px 3px #000;
+}
+
 @media screen and (max-width: 600px) {
   *{
     box-sizing: border-box;
@@ -410,34 +440,25 @@ h4 {
     padding: 20px;
     background-color: rgba(0, 0, 0, .5);
   }
+  
+    #form {
+    font-size: 25px;
+  }
+
+  #submit {
+    font-size: 40px;
+  }
+
+  textarea {
+    font-size: 45px;
+  }
+
+  .tuikaform {
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 50px;
+    text-shadow: 5px 5px #000;
+  }
+
 }
 
-#form {
-  margin-left: 30px;
-  font-size: 18px;
-}
-
-label {
-  color: #FFD700;
-  display: block;
-}
-
-#submit {
-  font-size: 20px;
-  font-weight: bold;
-  background-color: rgb(206, 86, 17);
-  color: #fff;
-}
-
-textarea {
-  font-size: 22px;
-}
-
-.tuikaform {
-  background-color: rgba(158, 61, 61, 0.8);
-  color: #FFD700;
-  padding-left: 15px;
-  padding-top: 3px;
-  font-size: 30px;
-  text-shadow: 3px 3px #000;
-}
