@@ -128,7 +128,6 @@ h3 {
 
 #main_img {
   margin: 0 10px;
-  box-sizing: border-box;
 }
 
 .hdlogo {
@@ -374,7 +373,8 @@ h4 {
     display: block;
     margin: 0 auto;
     text-align: center;
-    width: 100vw;
+    width: 100vw; 
+    box-sizing: border-box;
   }
 
   .main-wrapper li {
