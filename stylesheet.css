@@ -382,6 +382,7 @@ textarea {
 
   .intro {
     width: 82%;
+    line-height: 120%;
     box-sizing: border-box;
   }
 
