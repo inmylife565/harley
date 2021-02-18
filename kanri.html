@@ -20,7 +20,7 @@
     <script>
     function checkYm() {
       let nengetu = document.getElementById('nengetu').value;
-      if (/20([0-9]{2})\.(0[1-9]|1[0-2])/.test(nengetu)) {
+      if (/^20([0-9]{2})\.(0[1-9]|1[0-2])$/.test(nengetu)) {
         return true;
       } else {
         alert('年月の値が不正です。　⇒ 20●●.●●');
