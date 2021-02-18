@@ -194,6 +194,7 @@ label {
 }
 
 #submit {
+  margin-top: 10px;
   font-size: 20px;
   font-weight: bold;
   background-color: rgb(206, 86, 17);
