@@ -379,15 +379,15 @@ textarea {
 
   h1 {
     font-size: 40px;
-    padding-left: 30px;
+    padding-left: 25px;
   }
 
   .intro {
-    width: 85%;
+    width: 84%;
     padding-top: 0;
     line-height: 180%;
     box-sizing: border-box;
-    padding-left: 30px;
+    padding-left: 25px;
   }
 
   .container2 {
@@ -417,7 +417,7 @@ textarea {
   }
   
   .main-wrapper .image-vw {
-    width: 92vw;
+    width: 91vw;
   }
 
   .main-wrapper li {
