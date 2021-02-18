@@ -443,21 +443,21 @@ textarea {
   }
   
     #form {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   #submit {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   textarea {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .tuikaform {
     padding-left: 15px;
     padding-top: 3px;
-    font-size: 30px;
+    font-size: 22px;
     text-shadow: 3px 3px #000;
   }
 
